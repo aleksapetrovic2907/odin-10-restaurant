@@ -5,3 +5,7 @@
     --color-green-white: #ECEBDE;
     --color-spring-wood: #f7f6f3;
 }
+
+body {
+    background-color: var(--color-spring-wood);
+}
