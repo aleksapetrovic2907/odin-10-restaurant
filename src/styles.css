@@ -8,4 +8,6 @@
 
 body {
     background-color: var(--color-spring-wood);
+    margin: 0;
+    padding: 0;
 }
