@@ -40,11 +40,11 @@ function generateItem(title, description) {
     const item = document.createElement("div");
     item.classList.add("menu-item");
 
-    const title = document.createElement("h2");
-    title.classList.add("menu-item-title");
+    const itemTitle = document.createElement("h2");
+    itemTitle.classList.add("menu-item-title");
 
-    const description = document.createElement("p");
-    description.classList.add("menu-item-description");
+    const itemDescription = document.createElement("p");
+    itemDescription.classList.add("menu-item-description");
 
     return item;
 }
