@@ -35,6 +35,7 @@ nav > button {
     cursor: pointer;
     background-color: var(--color-spring-wood);
     font-weight: bold;
+    color: var(--color-carbon-gray);
 }
 
 nav > button:hover {
