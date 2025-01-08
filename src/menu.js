@@ -8,6 +8,8 @@ export default function generateContent() {
 
     menuContainer.appendChild(title);
     menuContainer.appendChild(generateItemsList());
+
+    return menuContainer;
 }
 
 function generateItemsList() {
