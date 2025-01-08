@@ -44,9 +44,11 @@ function generateItem(title, description) {
 
     const itemTitle = document.createElement("h2");
     itemTitle.classList.add("menu-item-title");
+    itemTitle.innerText = title;
 
     const itemDescription = document.createElement("p");
     itemDescription.classList.add("menu-item-description");
+    itemDescription.innerText = description;
 
     item.appendChild(itemTitle);
     item.appendChild(itemDescription);
