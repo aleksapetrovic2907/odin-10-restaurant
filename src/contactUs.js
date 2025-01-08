@@ -13,6 +13,8 @@ export default function generateContent() {
     contentContainer.appendChild(title);
     contentContainer.appendChild(description);
     contentContainer.appendChild(generateContactData());
+
+    return contentContainer;
 }
 
 function generateContactData() {
