@@ -52,3 +52,8 @@ nav > button:hover {
 #content {
     padding: 1rem 8rem;
 }
+
+.home-description {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
